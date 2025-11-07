@@ -6,9 +6,9 @@
     const email = document.getElementById("email").value.trim();
     const message = document.getElementById("message");
 
-    (nom && prenom && email) {
+    if (nom && prenom && email) {
     message.textContent = `${prenom} ${nom}, Votre demande est bien envoyée !`;
     message.style.color = "green";
     this.reset(); // Réinitialise le formulaire
-  } 
+    } 
 });
