@@ -1,3 +1,28 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px; /* ajustez si besoin */
+}
+
 body {
     height: 200vh;
+}
+
+section1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 2rem;     
+    height: 30vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 2rem;               
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
