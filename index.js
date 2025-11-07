@@ -1,5 +1,5 @@
     document.getElementById("formulaire").addEventListener("submit", function(event) {
-    event.preventDefault(); // Empêche le rechargement de la page
+    event.preventDefault(); 
 
     const nom = document.getElementById("nom").value.trim();
     const prenom = document.getElementById("prenom").value.trim();
@@ -9,6 +9,6 @@
     if (nom && prenom && email) {
     message.textContent = `${prenom} ${nom}, Votre demande est bien envoyée !`;
     message.style.color = "green";
-    this.reset(); // Réinitialise le formulaire
+    this.reset(); 
     } 
 });

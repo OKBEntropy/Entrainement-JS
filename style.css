@@ -42,3 +42,9 @@ h2 {
     align-items: center;     
     gap: 2rem;
 }   
+
+footer {
+    display: flex;               
+    justify-content: center;    
+    align-items: center;  
+}
